@@ -1,4 +1,6 @@
 import 'package:event_concert_app/presentation/views/concerts_view.dart';
+import 'package:event_concert_app/presentation/views/detail_view.dart';
+import 'package:event_concert_app/presentation/views/event_view.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -12,7 +14,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ConcertsView(),
+      home: EventView(),
     );
   }
 }
